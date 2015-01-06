@@ -1,5 +1,9 @@
 $(document).ready( function() {
-	$('#tab1 a').click(function (e) {
+	$('#home a').click(function (e) {
+	  e.preventDefault()
+	  $(this).tab('show')
+	})
+	$('#profile a').click(function (e) {
 	  e.preventDefault()
 	  $(this).tab('show')
 	})
