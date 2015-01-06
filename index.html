@@ -5,28 +5,51 @@
 		<meta charset='utf8'>
 		<title>IAT 381 Lab 1</title>
 		<link rel='stylesheet' href='dist/css/bootstrap.css'>
+		<link rel='stylesheet' href='css/main.css'>
 	</head>
 	
 	<body>
 		<h1>Hello, World!!</h1>
 		<div class='container-responsive'>
 			<div class='row'>
-				<div class='col-md-3'>
+				<div class='col-md-4'>
 					<h2>Some Section</h2>
 					<p>Some text</p>
 				</div>
-				<div class='col-md-3'>
+				<div class='col-md-4'>
 					<h2>Some Section</h2>
 					<p>Some text</p>
 				</div>
-				<div class='col-md-3'>
+				<div class='col-md-4'>
 					<h2>Some Section</h2>
 					<p>Some text</p>
+				</div>
+			</div>
+			<div class='row'>
+				<div role="tabpanel">
+
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+						<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+						<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+						<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="home">...</div>
+						<div role="tabpanel" class="tab-pane" id="profile">test2</div>
+						<div role="tabpanel" class="tab-pane" id="messages">daasdsa</div>
+						<div role="tabpanel" class="tab-pane" id="settings">...</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
 		
 		<script src='js/jquery.js'></script>
+		<script src='js/ui.js'></script>
 		<script src='dist/js/bootstrap.js'></script>
 	</body>
 </html>
