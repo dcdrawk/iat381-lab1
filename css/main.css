@@ -1,3 +1,7 @@
-body, .row, .tabpanel{
+body, .row, .tab-pane{
 	padding:1em;
+}
+
+h1{
+	padding-left:15px;
 }
